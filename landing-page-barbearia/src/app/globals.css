@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); 
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+}
+
+:root {
+  --fundo-claro: #ffffff;
+  --fundo-escuro: #232323;
+  --color-letras: #000000;
+  --assinatura-border-button: #b2987d;
 }
