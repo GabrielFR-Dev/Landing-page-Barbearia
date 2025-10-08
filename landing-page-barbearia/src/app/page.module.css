@@ -143,6 +143,7 @@
 
 
 
+
 @media (min-width: 100px) and (max-width: 550px) {
    .container_topo {
     padding: 17px 20px;
@@ -162,4 +163,12 @@
  
    
 }
-
+ /* Quando o celular está na horizontal (landscape) */
+@media (max-width: 1330px) and (orientation: landscape) {
+    .topo {
+        max-height: 10vh;
+    }
+    .container_conteudo {
+        height: 180vh;
+      }
+}
